@@ -1,0 +1,198 @@
+﻿html,
+body {
+	height: 100%;
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+	margin-top: 0;	
+	margin-bottom: 0;
+}
+
+
+/*===============box used here to expand empty pages to fill screen to the bottom==============*/
+
+.box {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.box .row.header {
+	flex: 0 1 auto;
+}
+
+.box .row.content {
+	border: 25px solid;
+	border-color: #c6a786;
+	background-color: #FFFFFF;
+	flex: 1 1 auto;
+}
+
+.box .row.footer {
+	flex: 0 1 auto;
+}
+
+
+
+.header-tabs {
+	margin-top: 0.6cm;
+	margin-bottom: 0cm;
+	text-align: left;
+	height: 35px;
+}
+
+.tab-container {
+	color:black;
+	font-size: 17px;
+	font-weight: 500; /* normal (400), bold (700) */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align:center;
+	width: auto;  
+	height: auto;  
+	vertical-align: center;
+	text-align: center;
+	display: table-cell;
+}
+
+.tab-container:hover {
+	color: #5f5b32;
+}
+
+
+.tab-text {
+	position: relative;
+	top:  -22px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}
+
+
+.header-banner {
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+	text-align: left;
+	background-color: #c6a786;
+	height: 60px;
+}
+
+
+
+.content-text {
+	color: black;
+	text-align: left;
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: medium;
+	font-family: 'Times New Roman';
+}
+
+
+.content-text-no-line-space {
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+}
+
+
+content-image {
+	display:inline-block;
+	margin:0px;
+	margin-top:0px;
+	margin-bottom:15px;
+	text-align: center;
+	font-size: medium;
+	font-family: 'Times New Roman';
+}
+
+
+content-image-spaced {
+	display:inline-block;
+	margin:25px;
+	margin-top:25px;
+	margin-bottom:25px;
+	text-align: center;
+	font-size: medium;
+	font-family: 'Times New Roman';
+}
+
+
+.footer {
+	text-align: center;
+	color: #393939;
+	background-color: #c6a786;
+	/*overflow: hidden;*/
+	padding-top: 6px;
+	padding-bottom: 1px;
+	margin-top:auto;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	line-height: 15px;
+}
+a:link {
+	color: #393939
+}
+a:visited {
+	color: #669999
+}
+a:hover {
+	color: #0000FF
+}
+
+
+
+
+/*===============used to center anything==============*/
+
+.center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+/*============float images to left or right ============*/
+
+.float-right {
+	float: right;
+	margin: 0px 0px 15px 15px;
+
+}
+
+.float-left {
+	float: left;
+	margin: 0px 0px 15px 15px;
+}
+
+
+.download-button {
+	background-color: #0a95ff; /* blue */
+	border: none;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	vertical-align:middle;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family:tahoma;
+	transition-duration: 0.4s;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.download-button:hover {
+	background-color: #0074cc; /* dark blue */
+}
+
+
+.download-button:active {
+  background-color: #0057b1; /* darker blue */
+  transition-duration: 0.1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  /*transform: translateY(2px);*/
