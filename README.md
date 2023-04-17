@@ -1,10 +1,10 @@
 # A simple HTML website template for hosting on GitHub and elsewhere:
 
-![Simple website template in the style of a folder](images/simple-website-template-folder-style-v1.0-sample.png)
+![Simple website template in the style of a folder](images/simple-website-template-folder-style-v1-sample.png)
 
 ## Click on the link below to open and try out the template.
 
-* [Click this link to view the website being created from this repository and hosted on github-pages.](https://boxbot6.github.io/simple-website-template-folder-style-v1.0/)
+* [Click this link to view the website being created from this repository and hosted on github-pages.](https://boxbot6.github.io/simple-website-template-folder-style-v1/)
 
 ## To copy and use the template:
 * Create a new folder on your computer and name it - this folder will be your new websites root directory folder.
@@ -102,7 +102,7 @@ You may have to wait a day or so for your GitHub repository to show up in google
 
 Visit the link below to view the website being created from this repository by github-pages.
 
-[https://boxbot6.github.io/simple-website-template-folder-style-v1.0/](https://boxbot6.github.io/simple-website-template-folder-style-v1.0/)
+[https://boxbot6.github.io/simple-website-template-folder-style-v1/](https://boxbot6.github.io/simple-website-template-folder-style-v1/)
 
 
 <br>
